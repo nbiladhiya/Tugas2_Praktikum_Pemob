@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Jadwal Kuliah - Dwi Nabila",
+  "description": "Sistem Jadwal Kuliah Universitas Islam Riau oleh Dwi Nabila Dhiya Ulhaq (NPM 233510384) menggunakan React Native Expo simulator dengan data statis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

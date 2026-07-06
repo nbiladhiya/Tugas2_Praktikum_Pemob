@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Quicksand", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #faf6f6;
+    color: #4a3e3e;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom soft pastel glow animations */
+@keyframes heart-beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+
+.animate-heart {
+  animation: heart-beat 2s infinite ease-in-out;
+}
+
+/* Delicate custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fdfafb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f1dae2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e8c6d3;
+}
+
